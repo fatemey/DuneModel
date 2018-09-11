@@ -10,7 +10,7 @@ format longG
 clear
 
 %-------------- set up initial models requirements
-load example
+load example1
 SetupRequirements(data);
 
 %-------------- run simulations
