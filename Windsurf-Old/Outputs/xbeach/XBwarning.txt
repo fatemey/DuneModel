@@ -1,0 +1,6 @@
+ Warning: Specification of instat using parameter 'wbctype'
+                    dtheta =360.0000 Warning: value > recommended value of180.00
+ 00
+  Warning: Setting rugdepth to minimum value greater than eps (.05000)
+   Unknown, unused or multiple statements of parameterTBFAC inparams.txt
+  Warning: shallow water so long wave variance is reduced using par%nmax
