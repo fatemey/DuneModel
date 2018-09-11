@@ -1,3 +1,0 @@
-FILELIST
-4200 1 spectra.spec
-4200 1 spectra.spec
