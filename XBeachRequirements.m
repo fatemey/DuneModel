@@ -4,7 +4,7 @@ function input  = XBeachRequirements(data)
 % Fateme Yousefi Lalimi, Arizona State University, Sep 2018
 %
 %--------------------------------------------------------------------------
-%test
+
 dlmwrite('x.grd', data.grid.X, 'delimiter', ' ', 'precision', '%10.4f');
 dlmwrite('y.grd', zeros(size(data.grid.X)), 'delimiter', ' ', 'precision', '%10.4f');
 dlmwrite('z.dep', data.grid.Z0, 'delimiter', ' ', 'precision', '%6.20f');

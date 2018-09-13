@@ -8,7 +8,7 @@ function RunWindsurf
 format compact
 format longG
 clear
-
+   
 cd('C:\Users\fyousef1\Projects\Dune Model\Codes\Output')
 
 %-------------- set up initial models requirements
