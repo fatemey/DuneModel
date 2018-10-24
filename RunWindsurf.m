@@ -9,14 +9,16 @@ format compact
 format longG
 clear
          
-cd('C:\Users\fyousef1\Projects\Dune Model\Codes\Output')
+cd('C:\Users\fyousef1\Main Drive\Codes\Matlab\Output')
 
 %-------------- set up initial models requirements
-load example1
-SetupRequirements(data);
+data = ReadData;
+XBeachRequirements(data)
+% CDMRequirements(data)
+% AeolisRequirements(data)
 
 %-------------- run simulations
-WindsurfCoupler
+WindsurfCoupler(data.grid.Z, data.timestep.n)
 
 %-------------- display model output
 

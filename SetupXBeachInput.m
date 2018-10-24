@@ -1,4 +1,4 @@
-function SetupXBeachInput0
+function SetupXBeachInput0 % should be deleted
 % SetupXBeachInput sets up input parameters for XBeach model.
 %
 % Fateme Yousefi Lalimi, Arizona State University, Sep 2018

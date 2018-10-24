@@ -1,4 +1,4 @@
-function WindsurfCoupler
+function WindsurfCoupler(Z, n)
 % WindsurfCoupler runs XBeach, CDM, and Aeolis models successively and
 % passes the relevant parameters between them.
 %
@@ -6,14 +6,12 @@ function WindsurfCoupler
 %
 %--------------------------------------------------------------------------
 
-n = length(inputdata.winds);
-
 for i = 1 : n
     
     %============================ run XBeach ============================
-    SetupXBeachInput
-    system('xbeach')
-    ReadXBeachOutput
+    dlmwrite('z.dep', Z, 'delimiter', ' ', 'precision', '%6.20f');
+    system('xbeach');
+     [Z, wl, H] = ReadXBeachOutput;
     
     %============================  run CDM   ============================
     SetupCDMInput

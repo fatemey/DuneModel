@@ -1,6 +1,5 @@
-function input  = SetupRequirements(data)
-% SetupRequirements prepares initial data needed as inputs for XBeach, CDM 
-% and Aeolis
+function input  = SetupRequirements(data) % no need to  be deleted
+% SetupRequirements prepares initial data needed as inputs for XBeach, CDM and Aeolis
 %
 % Fateme Yousefi Lalimi, Arizona State University, Sep 2018
 %
